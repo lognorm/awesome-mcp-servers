@@ -901,6 +901,22 @@
     "official": true
   },
   {
+    "name": "CloudBurn",
+    "url": "https://github.com/towardsthecloud/cloudburn",
+    "description": "Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Towards The Cloud",
+    "tags": [
+      "aws",
+      "finops",
+      "terraform",
+      "cloudformation",
+      "read-only"
+    ],
+    "official": true
+  },
+  {
     "name": "Cloudflare MCP Server",
     "url": "https://github.com/cloudflare/mcp-server-cloudflare",
     "description": "Manage Workers, KV, R2, and Cloudflare platform resources.",
@@ -1281,6 +1297,24 @@
     "official": false
   },
   {
+    "name": "VideoGen MCP",
+    "url": "https://videogen.io/videogen-mcp",
+    "description": "Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "VideoGen",
+    "tags": [
+      "video",
+      "images",
+      "audio",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.videogen.io/mcp"
+    }
+  },
+  {
     "name": "OpenAI MCP Bridge",
     "url": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
     "description": "Bridge OpenAI GPT models into MCP-compatible agent workflows.",
@@ -1531,6 +1565,21 @@
     "endpoints": {
       "streamableHttp": "https://ecfr.io/mcp"
     }
+  },
+  {
+    "name": "US Code MCP",
+    "url": "https://github.com/lrehmann/uscode-mcp",
+    "description": "Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "eCFR.io",
+    "tags": [
+      "legal",
+      "statutes",
+      "us-code",
+      "citations"
+    ],
+    "official": false
   },
   {
     "name": "1Password MCP Server",
@@ -2510,22 +2559,21 @@
     }
   },
   {
-    "name": "LogNorm",
-    "url": "https://github.com/lognorm/lognorm-mcp",
-    "description": "Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.",
-    "category": "data-analytics-and-bi",
-    "language": "Other",
-    "provider": "LogNorm",
+    "name": "Invompt",
+    "url": "https://mcp.invompt.com/mcp",
+    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Invompt",
     "tags": [
-      "seo",
-      "geo",
-      "marketing",
-      "remote",
-      "oauth"
+      "invoicing",
+      "finance",
+      "oauth",
+      "remote"
     ],
     "official": true,
     "endpoints": {
-      "streamableHttp": "https://lognorm.com/api/mcp"
+      "streamableHttp": "https://mcp.invompt.com/mcp"
     }
   }
 ]
